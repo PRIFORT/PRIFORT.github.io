@@ -83,49 +83,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
-/* Background Textures */
-
-.bloc-bg-texture::before{
-	content:"";
-	background-size: 2px 2px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left:0;
-	right:0;
-}
-.texture-geometry-shapes::before{
-	background: url("img/texture-geometry-shapes.png");
-	background-size: 280px 280px;
-}
-
-
-/* Background Effects */
-
-.parallax__container {
-	clip: rect(0, auto, auto, 0);
-	height: 100%;
-	left: 0;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index:-1;
-}
-.parallax {
-	position: fixed;
-	top: 0;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-
 /* Light theme */
 
 .d-bloc .card,.l-bloc{
@@ -310,6 +267,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-style{
 	width:63px;
 }
+.container-div-style{
+	height:51px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -319,6 +279,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .tc-black{
 	color:rgba(0,0,0,0.2)!important;
+}
+.tc-black-2{
+	color:#000000!important;
+}
+.tc-dark-jungle-green{
+	color:#212121!important;
 }
 
 /* Bloc image backgrounds */
